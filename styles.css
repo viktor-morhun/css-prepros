@@ -1,1 +1,149 @@
-/*# sourceMappingURL=styles.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700;900&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1170px;
+  margin: 121px auto 0;
+  height: 757px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 60px;
+  line-height: 66px;
+  font-weight: 900;
+  color: #ffcc00;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  line-height: 24px;
+  color: #898f8f;
+}
+
+.team-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1030px;
+  height: 560px;
+  margin: 40px auto 0;
+}
+.team-card .image-wrapper {
+  position: relative;
+  width: 430px;
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-card .image-wrapper .border {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.team-card .image-wrapper .border--1 {
+  top: 0;
+  left: 0;
+  border-top: 1px solid #ffcc00;
+  border-left: 1px solid #ffcc00;
+}
+.team-card .image-wrapper .border--2 {
+  top: 0;
+  right: 0;
+  border-top: 1px solid #ffcc00;
+  border-right: 1px solid #ffcc00;
+}
+.team-card .image-wrapper .border--3 {
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid #ffcc00;
+  border-left: 1px solid #ffcc00;
+}
+.team-card .image-wrapper .border--4 {
+  bottom: 0;
+  right: 0;
+  border-bottom: 1px solid #ffcc00;
+  border-right: 1px solid #ffcc00;
+}
+.team-card .image-wrapper img {
+  border: 1px solid #ffcc00;
+}
+.team-card .team-info {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-left: 1px solid #ffcc00;
+}
+.team-card .team-info .team-name {
+  position: relative;
+  font-size: 36px;
+  line-height: 42px;
+  color: #666666;
+  font-weight: 900;
+  margin-bottom: 60px;
+}
+.team-card .team-info .team-name::after {
+  content: "";
+  background-color: #ffcc00;
+  width: 100px;
+  height: 1px;
+  position: absolute;
+  bottom: -30px;
+  left: calc(50% - 50px);
+}
+.team-card .team-info .team-position {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #666666;
+  margin-bottom: 30px;
+}
+.team-card .team-info .social-links {
+  margin-bottom: 50px;
+}
+.team-card .team-info .team-bio {
+  width: 430px;
+  font-size: 14px;
+  color: #333333;
+  line-height: 24px;
+  margin-bottom: 50px;
+}
+.team-card .team-info .text-container {
+  position: relative;
+}
+.team-card .team-info .text-container .decore {
+  position: absolute;
+  bottom: 25px;
+  left: calc(50% - 25px);
+}
+.team-card .team-info .profile-btn {
+  padding: 5px 10px;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 700;
+  color: #666666;
+  background-color: #ffffff;
+  border: 1px solid #ffcc00;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.team-card .team-info .profile-btn:hover {
+  background-color: #ffcc00;
+}/*# sourceMappingURL=styles.css.map */
